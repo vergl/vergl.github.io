@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /microservices/
-title: "Microservices"
+permalink: /tags/
+title: "Tags"
 author_profile: true
 ---
 
