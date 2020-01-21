@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Coding Practice"
+title                    : "Dev's Thoughts"
 title_separator          : "-"
-subtitle                 : "Personal blog about java programming and other coding stuff" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Stanislav Giley"
 description              : "My personal blog about programming"
-url                      : "https://vergl.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "vergl/vergl" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/default-teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -116,9 +116,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:stanislav.giley@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://vergl.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -294,3 +291,5 @@ defaults:
       comments: true
       share: true
       related: true
+  
+github: [metadata]
