@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Tags"
-    url: /tags/
+  # - title: "Microservices"
+  #   url: /categories/microservices/
   - title: "About"
     url: /about/
   # - title: "Quick-Start Guide"
