@@ -169,7 +169,7 @@ public void hashMapCollectorsToMapFixed() {
     Assert.assertNull(filteredMap.get(3));
 }
 ```
-This way, there's no exceptions.
+This way, there are no exceptions.
 
 Have you seen other inconsistencies or strange behavior of Maps? Write about your experience in comments below :)
 
