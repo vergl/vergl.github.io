@@ -36,23 +36,23 @@ I also highly recommend configuring your user/password in the wizard for easier 
 
 ### Configure Bootloader
 After OS installation let's connect to our Pi through ssh (your user or domain/IP address may be different, you can configure it on installation):
-```
-> ssh pi@raspberrypi.local
+```bash
+ssh pi@raspberrypi.local
 ```
 
 First, we need to make sure that your OS and packages are up to date. Let's first update the packages:
-```
-> sudo apt update && sudo apt upgrade
+```bash
+sudo apt update && sudo apt upgrade
 ```
 
 And now we can update the OS itself:
-```
-> sudo apt full-upgrade
+```bash
+sudo apt full-upgrade
 ```
 
 When our software is updated we can go to configuration and setup the boot config:
-```
-> sudo raspi-config
+```bash
+sudo raspi-config
 ```
 
 In this menu, we choose *Advanced Options -> Boot Order -> USB Boot*:
